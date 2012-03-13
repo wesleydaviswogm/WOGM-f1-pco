@@ -6,7 +6,26 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div id="frontimage">
-        <img src="Content/images/F1PCO.png" style="display:block;margin:auto;">
+        <p style="float:left">
+            <img src="Content/images/stop-sign.jpg" style="margin:15px;">
+        </p>
+        <p>
+        <h2>And read this first!!</h2>
+            <b>
+                This site is for demonstration purposes only.<br /><br />
+                
+                This site is an implmentation of an open-source project from Fellowship 
+                Technologies/Active Network called <a href="https://github.com/fellowshiptech/f1-pco" target="_blank">f1-pco</a>.<br /><br />  
+                This code is free for churches/3rd paties to use AND IMPLEMENT THEMSELVES.  This site is a demo
+                implemnation of this code pointed to STAGING data for Fellowship One.  Since Planning Center doesn't have a "sandbox" environment (that we 
+                are aware of) this site is still pointed to PCO's production data.  So if you elect to use this site you will be syncing staging/sandbox data from Fellowship One to production data for Planning Center Online.<br /><br />
+                This site will NOT syncronize your production Fellowship One data with your production Planning Center online data.<br /><br />
+                You use this site at your own risk.  This site is NOT supported by Fellowship Technologies/Active Network.<br /><br />
+                If you understand and agree with the above statements you may continue below.  Please understand that in the instructions below it is referring to the
+                staging version of portal (https://staging-www.fellowshipone.com/) not the production version (https://portal.fellowshipone.com/login.aspx).<br /><br />
+                For more information about this project and how to implment it for your church please visit <a href="https://developer.fellowshipone.com/index.php/blog/fellowship_one_planning_center_online_mash-up/">the F1 Developer blog</a>
+            </b>
+        </p>
     </div>
     <div>
         <h2>

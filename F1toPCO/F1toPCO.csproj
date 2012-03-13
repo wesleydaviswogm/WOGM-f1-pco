@@ -110,6 +110,7 @@
     <Content Include="Content\images\instructions_1.png" />
     <Content Include="Content\images\instructions_2.png" />
     <Content Include="Content\images\pcologo.gif" />
+    <Content Include="Content\images\stop-sign.jpg" />
     <Content Include="Global.asax" />
     <Content Include="Views\Home\ChurchCode.aspx" />
     <Content Include="Views\Home\MultipleMatches.aspx" />
