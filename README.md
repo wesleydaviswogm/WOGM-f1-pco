@@ -22,4 +22,4 @@ In order for the application to know which users it needs to sync an attribute w
 Workflow
 -
 
-The application will query the Fellowship One API for all individuals that contain the "SyncMe" attribute.  It will then take this collection of individuals and query the PCO API in an effort to find matches.  This search is done my name and email address. If a direct match is found then name, address and communication values from F1 are synced to PCO.  If multiple matches are found, the user is presented with a screen to select the correct match or create a new use in PCO.  If no match is found then a new person is created in PCO.
+The application will query the Fellowship One API for all individuals that contain the "SyncMe" attribute.  It will then take this collection of individuals and query the PCO API in an effort to find matches.  This search is done by name and email address. If a direct match is found then name, address and communication values from F1 are synced to PCO.  If multiple matches are found, the user is presented with a screen to select the correct match or create a new user in PCO.  If no match is found then a new person is created in PCO.
