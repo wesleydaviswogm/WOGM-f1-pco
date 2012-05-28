@@ -382,7 +382,7 @@ namespace F1toPCO.Controllers
 
                         if (email != null)
                         {
-                            people.person = people.FindByEmailAddress("Email");
+                            people.person = people.FindByEmailAddress(email.communicationValue);
                         }
 
                         switch (people.person.Count)
